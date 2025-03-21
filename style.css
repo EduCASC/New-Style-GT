@@ -869,3 +869,21 @@ form button:hover {
   padding: 50px 0;
 
   }
+/* Ajustes para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /* Ejemplo: hacer que el menú sea más compacto */
+  .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+img {
+  width: 100%;  /* La imagen se ajustará al ancho del contenedor */
+  max-width: 500px; /* No será más grande de 500px */
+  height: auto;
+}
