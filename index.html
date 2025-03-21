@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Style GT</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <h1>NEW STYLE GT</h1>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#">Nosotros</a>
+          <ul class="dropdown-menu">
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#valores">Valores</a></li>
+            <li><a href="#organigrama">Organigrama Empresa</a></li>
+          </ul>
+        </li>
+        <li><a href="#contacto">Contacto</a></li> <!-- Enlace a la sección Contacto -->
+          <li><a href="#">Historia</a></li>
+      
+        <li><a href="#">Productos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Carrusel de imágenes -->
+  <div class="carrusel-container">
+    <div class="carrusel">
+      <div class="slide">
+        <img src="modelo4.png" alt="Zapatos modernos 1">
+      </div>
+      <div class="slide">
+        <img src="modelo 7.png" alt="Zapatos modernos 2">
+      </div>
+      <div class="slide">
+        <img src="logo 1.1.png" alt="Zapatos modernos 3">
+      </div>
+    </div>
+  </div>
+
+  <!-- Categorías -->
+  <div class="categorias">
+    <div class="categoria">
+      <a href="#calzado-mujeres">
+        <img src="modelomujer.png" alt="Calzado de Mujeres">
+        <div class="overlay">
+          <h2>Calzado de Mujeres</h2>
+          <button>Ver más</button>
+        </div>
+      </a>
+    </div>
+    <div class="categoria">
+      <a href="#calzado-hombres">
+        <img src="modelohombre.png" alt="Calzado de Hombres">
+        <div class="overlay">
+          <h2>Calzado de Hombres</h2>
+          <button>Ver más</button>
+        </div>
+      </a>
+    </div>
+    <div class="categoria">
+      <a href="#calzado-niños">
+        <img src="niños.png" alt="Calzado de Niños">
+        <div class="overlay">
+          <h2>Calzado de Niños</h2>
+          <button>Ver más</button>
+        </div>
+      </a>
+    </div>
+  </div>
+    <!-- Sección Calzado de Mujeres -->
+    <section id="calzado-mujeres">
+      <h2>Calzado de Mujeres</h2>
+      <div class="productos">
+        <section id="mujeres">
+          <h2 class="titulo-mujeres">Sección de Mujeres</h2>
+          <div class="productos">
+              <!-- Productos de mujeres -->
+          </div>
+        </section>
+        <!-- Tarjetas de productos de mujeres -->
+        <div class="producto">
+          <img src="h0.png.png" alt="Zapato de Mujer 1">
+          <h3>Zapato Elegante 1</h3>
+          <p>Ideal para cualquier ocasión.</p>
+          <p>Precio: $50</p>
+          <button class="btn-comprar" data-nombre="Zapato de Mujer 1" data-precio="50" data-imagen="h0.png.png">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="mujer1.png" alt="Zapato de Mujer 2">
+          <h3>Zapato Deportivo 2</h3>
+          <p>Perfecto para tu día a día.</p>
+          <p>Precio: $55</p>
+          <button class="btn-comprar" data-nombre="Zapato de Mujer 2" data-precio="55" data-imagen="mujer1.png">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="mujer2.png" alt="Zapato de Mujer 3">
+          <h3>Zapato Deportivo 2</h3>
+          <p>Perfecto para tu día a día.</p>
+          <p>Precio: $55</p>
+          <button class="btn-comprar" data-nombre="Zapato de Mujer 3" data-precio="60" data-imagen="mujer2.png">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="mujer 3.jpg" alt="Zapato de Mujer 4">
+          <h3>Zapato Deportivo 3</h3>
+          <p>Perfecto para tu día a día.</p>
+          <p>Precio: $55</p>
+          <button class="btn-comprar" data-nombre="Zapato de Mujer 4" data-precio="60" data-imagen="Mujer 3.png">Comprar</button>
+        </div>
+    </section>
+    
+
+   
+  <!-- Sección Calzado de Hombres -->
+  <section id="calzado-hombres">
+    <h2>Calzado de Hombres</h2>
+    <div class="productos">
+      <section id="hombres">
+        <h2 class="titulo-hombres">Sección de Hombres</h2>
+        <div class="productos">
+        </section>
+      <!-- Tarjetas de productos de hombres -->
+      <div class="producto">
+        <img src="h1.png" alt="Zapato de Hombre 1">
+        <h3>Zapato Casual 1</h3>
+        <p>Perfecto para un look relajado.</p>
+        <p>Precio: $60</p>
+        <button class="btn-comprar" data-nombre="Zapato de Hombre 1" data-precio="60" data-imagen="h1.png">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="h2.png" alt="Zapato de Hombre 2">
+        <h3>Zapato Casual 2</h3>
+        <p>Comodidad y estilo para tu día.</p>
+        <p>Precio: $65</p>
+        <button class="btn-comprar" data-nombre="Zapato de Hombre 2" data-precio="65" data-imagen="h2.png">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="h3.jpg" alt="Zapato de Hombre 3">
+        <h3>Zapato Deportivo</h3>
+        <p>Comodidad y estilo para tu día.</p>
+        <p>Precio: $65</p>
+        <button class="btn-comprar" data-nombre="Zapato de Hombre 3" data-precio="65" data-imagen="h3.png">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="h4.png" alt="Zapato de Hombre 4">
+        <h3>Zapato Deportivo</h3>
+        <p>Comodidad y estilo para tu día.</p>
+        <p>Precio: $65</p>
+        <button class="btn-comprar" data-nombre="Zapato de Hombre 4" data-precio="65" data-imagen="h4.png">Comprar</button>
+      </div>
+      <!-- Agrega más productos aquí -->
+    </div>
+  </section>
+    
+ 
+   <!-- Sección de productos -->
+   <section class="productos">
+    <h2>PRODUCTOS MÁS COTIZADOS</h2>    
+    <div class="producto">
+      <img src="jordan.png" alt="Zapato Moderno 1">
+      <h3>Zapato Moderno 1</h3>
+      <p>Zapato elegante para todo tipo de ocasiones.</p>
+      <p>Precio: $50.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 1" data-precio="50" data-imagen="jordan.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo4.png" alt="Zapato Moderno 2">
+      <h3>Zapato Moderno 2</h3>
+      <p>Perfecto para un look casual y cómodo.</p>
+      <p>Precio: $45.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 2" data-precio="45" data-imagen="modelo4.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo4.png" alt="Zapato Moderno 2">
+      <h3>Zapato Moderno 2</h3>
+      <p>Perfecto para un look casual y cómodo.</p>
+      <p>Precio: $45.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 2" data-precio="45" data-imagen="modelo4.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo4.png" alt="Zapato Moderno 2">
+      <h3>Zapato Moderno 2</h3>
+      <p>Perfecto para un look casual y cómodo.</p>
+      <p>Precio: $45.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 2" data-precio="45" data-imagen="modelo4.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo3.png" alt="Zapato Moderno 3">
+      <h3>Zapato Moderno 3</h3>
+      <p>Diseño único para destacar en cualquier evento.</p>
+      <p>Precio: $60.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 3" data-precio="60" data-imagen="modelo3.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo3.png" alt="Zapato Moderno 3">
+      <h3>Zapato Moderno 3</h3>
+      <p>Diseño único para destacar en cualquier evento.</p>
+      <p>Precio: $60.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 3" data-precio="60" data-imagen="modelo3.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo3.png" alt="Zapato Moderno 3">
+      <h3>Zapato Moderno 3</h3>
+      <p>Diseño único para destacar en cualquier evento.</p>
+      <p>Precio: $60.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 3" data-precio="60" data-imagen="modelo3.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo3.png" alt="Zapato Moderno 3">
+      <h3>Zapato Moderno 3</h3>
+      <p>Diseño único para destacar en cualquier evento.</p>
+      <p>Precio: $60.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 3" data-precio="60" data-imagen="modelo3.png">Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="modelo3.png" alt="Zapato Moderno 3">
+      <h3>Zapato Moderno 3</h3>
+      <p>Diseño único para destacar en cualquier evento.</p>
+      <p>Precio: $60.00</p>
+      <button class="btn-comprar" data-nombre="Zapato Moderno 3" data-precio="60" data-imagen="modelo3.png">Comprar</button>
+    </div>
+     
+    <div> </section>
+       <!-- Sección del carrito -->
+<section class="carrito">
+  <h2>Mi Carrito</h2>
+  <div class="productos-carrito">
+    <!-- Aquí irán los productos añadidos al carrito -->
+  </div>
+  <div class="total">
+    <p>Total: <span id="total-price">$0.00</span></p>
+    <button id="checkout-button">Finalizar Compra</button>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+  </div>
+</section>
+<!-- Sección Nosotros -->
+<section id="nosotros" class="info-section nosotros-section">
+  <h2>Nosotros</h2>  <p>
+    En New Style GT , somos una empresa apasionada por la moda, la innovación y la comodidad. Nuestra misión es ofrecer zapatos modernos, de alta calidad y con un diseño único, para que cada paso que des refleje tu estilo y personalidad. Nos enorgullece crear productos que no solo sean tendencia, sino que también sean duraderos y funcionales, adaptándose a las exigencias del día a día.
+<p>
+  <p>Cada par de zapatos que diseñamos es el resultado de un proceso cuidadoso y detallado, donde combinamos las últimas tendencias de moda con materiales premium y un enfoque en la ergonomía. Queremos que nuestros clientes experimenten el equilibrio perfecto entre estilo, comodidad y resistencia en cada uno de nuestros productos.
+  </p>
+<p>En New Style GT , creemos que los zapatos son más que un accesorio, son una declaración de quién eres. Es por eso que trabajamos con dedicación para ofrecerte opciones que no solo realzan tu mirada, sino que también te acompañan en cada paso que das, desde el amanecer hasta el anochecer.
+</p>
+<P>Nos esforzamos por ser una marca que no solo te inspira, sino que también respeta el medio ambiente y las personas que hacen posible todo esto. A través de nuestros productos, buscamos construir una comunidad que valore la autenticidad, la calidad y el diseño sin compromisos.
+</P>
+</section>
+
+
+  </p>
+
+  <!-- Subsección Visión -->
+  <section id="vision" class="info-section vision-section">
+    <h2>Visión</h2>
+    <p>
+      Ser la marca líder en calzado moderno en Guatemala y Latinoamérica, reconocida por su innovación, calidad y compromiso con el estilo de vida de nuestros clientes. Buscamos transformar la industria del calzado a través de diseños vanguardistas, materiales sostenibles y tecnología avanzada, ofreciendo productos que combinan comodidad, durabilidad y elegancia.
+<p>
+<p>
+      Nuestro meta es convertirnos en un referente global en la moda del calzado, impulsando tendencias y asegurando que cada persona encuentre en nuestros zapatos la confianza y el estilo que necesita para destacar.
+
+    </p>
+  </section>
+
+  <!-- Subsección Misión -->
+  <section id="mision" class="info-section mision-section">
+    <h2>Misión</h2>
+    <p>
+      En New Style GT , nos dedicamos a diseñar y fabricar calzado moderno que refleje la personalidad y necesidades de nuestros clientes. Nos comprometemos a:
+<p>
+   Innovar constantemente , utilizando materiales de alta calidad y tecnologías de vanguardia.
+   Garantizar la comodidad y durabilidad en cada producto que creamos.
+   Promover la moda sostenible , minimizando nuestro impacto ambiental y apoyando prácticas responsables.
+   Brindar un servicio excepcional , asegurándonos de que cada cliente tenga una experiencia única y satisfactoria.
+</p>
+<p>
+  Nuestra misión es calzar al mundo con estilo, confianza y comodidad, adaptándonos a las tendencias y necesidades de nuestros consumidores.
+</p>
+    
+  </section>
+
+  <!-- Subsección valores -->
+  <section id="valores" class="info-section valores-section">
+    <h2>Valores</h2>
+    <p>
+      Estos son los principios que guían nuestra empresa:
+     <p>
+      <p>🔹 Innovación : Nos esforzamos por reinventar el calzado moderno, ofreciendo diseños únicos y tecnología de punta.
+      </p>
+<p>🔹 Calidad : Seleccionamos los mejores materiales y procesos para garantizar productos duraderos y cómodos.
+</p>
+<p>🔹 Compromiso con el Cliente : La satisfacción de nuestros clientes es nuestra prioridad. Buscamos superar sus expectativas en cada compra.
+</p>
+<p>🔹 Sostenibilidad : Nos preocupamos por el medio ambiente y aplicamos prácticas responsables en la producción de nuestros productos.
+</p>
+<p>🔹 Pasión por la Moda : Creemos en la importancia del estilo y la expresión personal a través del calzado.
+</p>
+<p>🔹 Trabajo en Equipo : Valoramos la colaboración, el respeto y la diversidad dentro de nuestra empresa para crecer juntos.
+</p>
+<p>🔹 Ética y Responsabilidad : Actuamos con transparencia e integridad en todas nuestras operaciones y relaciones comerciales.
+</p>
+  
+  </section>
+  
+
+  <div>
+    <!-- Sección Historia -->
+<section id="historia" class="historia-section">
+  <h2>Historia de New Style GT</h2>
+ <p>Nuestra empresa de zapatos surgió como respuesta a que en nuestro país no existe una marca de zapatos propia y lo que nosotros queremos conseguir es que nuestra empresa sea reconocida a nivel nacional e internacional así como también hemos encontrado oportunidades en el mercado y a la creciente demanda de un calzado que combinara comodidad, estilo y sostenibilidad. Observamos que muchos consumidores no encontraban opciones que realmente satisficiera sus necesidades de confort 
+  sin sacrificar el diseño o la accesibilidad. Además, la tendencia hacia el consumo responsable y la preocupación por el medio ambiente nos motivaron a crear una línea de calzado fabricado con materiales sostenibles y de calidad.
+
+  La idea nació de diferentes experiencias entre los socios y la frustración de encontrar zapatos que no ofrecieran un buen equilibrio entre durabilidad, estilo y precio. A partir de allí, nos propusimos ofrecer un producto innovador que no solo se adaptara a las demandas del mercado, sino que también creará un impacto positivo en la industria del calzado.</p>
+</section>
+ <!-- AQUI AGREGA EL ORGANIGRAMA -->
+  <div>
+    <section id="organigrama" style="text-align: center; padding: 50px;">
+      <h2 style="color: #f6f6f6; font-size: 36px; font-family: 'Arial', sans-serif; text-transform: uppercase; background-color: #f1c40f; padding: 10px 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        Organigrama de la Empresa
+      </h2>
+        <!-- Contenedor con fondo para la imagen -->
+  <div style="background-color: #ffffff; padding: 60px; display: inline-block; border-radius: 10px;">
+    <img src="organi.jpg" alt="Organigrama de la Empresa" style="width: 80%; max-width: 600px; border: 2px solid #fff; border-radius: 8px;">
+  </div>
+</section>
+    </div>
+     <!-- Sección Contacto -->
+    <section id="contacto" class="contacto-section">
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta, comentario o sugerencia, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y asegurarnos de que tengas la mejor experiencia con nuestros productos.</p>
+    
+      <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="mensaje">Mensaje:</label>
+       
+    </div>
+ 
+
+  <!-- Footer con íconos de redes sociales -->
+  <footer>
+    <div class="social-links">
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2025 New Style GT. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+    
+    <script>
+    // Selecciona el menú desplegable
+    const dropdown = document.querySelector('.dropdown');
+    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+  
+    // Muestra el submenú al pasar el mouse
+    dropdown.addEventListener('mouseenter', () => {
+      dropdownMenu.style.display = 'block';
+    });
+  
+    // Oculta el submenú cuando el mouse sale
+    dropdown.addEventListener('mouseleave', () => {
+      dropdownMenu.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
